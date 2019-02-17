@@ -66,7 +66,7 @@ $('#question2').on('click', function(){
 	$('#answer2').slideDown(300);
 	$('#answer1').slideUp(300);
 	$('li').removeClass('active');
-	$('#answer2').addClass('active');
+	$('#question2').addClass('active');
 });
 
 
